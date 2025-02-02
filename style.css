@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    padding: 10px 10px 0 10px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .heading {
+    display: flex;
+    align-items: center;
+}
+
+nav .heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 18px;
+}
+
+nav h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: lightcyan;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 501;
+    background-color: aqua;
+    background-image: linear-gradient(45deg, #3480fb 0%, #00d9ff 74%);
+    padding: 5px 10px;
+    border-radius: 28px;
+}
+
+nav ul li a:hover {
+    background-color: #00d9ff;
+    background-image: linear-gradient(45deg, #0f2547 0%, #18383e 74%);
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.home {
+    margin: 30px;
+    max-width: 55%;
+    border: #fff 3px solid;
+    padding: 1%;
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    background-color: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 0 10px #28aaf6;
+    transition: 1.5s;
+}
+
+.home:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.home h1 {
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 3.5rem;
+}
+
+.home h1:hover {
+    color: #222;
+}
+
+.home p {
+    color: #fff;
+    padding-top: 2%;
+    font-size: 1.1rem;
+}
+
+.home p:hover {
+    color: #222;
+}
+
+.home a img {
+    width: 5%;
+    margin: 1% 0 0 9%;
+}
+
+.home a img:hover {
+    width: 6%;
+}
+
+.poster img {
+    border-radius: 25px 25px 0 0;
+    margin-left: 90px;
+    width: 66%;
+}
+
+.anmi {
+    opacity: 0;
+    transform: translateY(60px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#skills {
+    padding: 5rem 2rem;
+    text-align: center;
+    height: 100vh;
+}
+
+.skill-card {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 94, 255, 0.2);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 2%;
+}
+
+.skill-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 6px 12px rgba(21, 0, 255, 0.473);
+}
+
+.skill-card h3 {
+    color: #ff7b00;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.skill-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #f4f4f4;
+}
+
+.skill-card ul li img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.services {
+    height: 100vh;
+    margin: 2%;
+    color: #000;
+}
+
+.services h2 {
+    text-align: center;
+    padding: 7px;
+    background-image: linear-gradient(45deg,
+            rgba(0, 0, 255, 0.1),
+            rgba(0, 0, 255, 1));
+    color: #fff;
+}
+
+.service-card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 0 10px #28aaf6;
+}
+
+.service-card h3 {
+    color: #fff0b2;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.service-card p {
+    color: #fff;
+    font-size: 0.89rem;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.service-card ul {
+    list-style: disc;
+    color: #fff;
+    font-size: 0.89rem;
+    padding-left: 30px;
+    font-weight: 500;
+}
