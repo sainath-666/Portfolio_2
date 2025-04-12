@@ -6,6 +6,8 @@
     <title>Portfolio Card</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -19,7 +21,7 @@
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -44,10 +46,10 @@
                 coding, I love exploring emerging tech trends like IoT, cybersecurity,
                 and blockchain. <br><br> <b>Let's connect and create something extraordinary
             </p>
-            <a href="https://www.linkedin.com/in/sainath666/" target="_blank"><img src="ass/linkedin_logo.png" /></a>
-            <a href="https://github.com/sainath-666" target="_blank"><img src="ass/github_logo.png" /></a>
-            <a href="mailto:sai65265@gmail.com" target="_blank"><img src="ass/gmail_logo.png" /></a>
-            <a class="pdf-btn" href="ass/Sainathreddy_Resume.pdf" target="_blank"><img
+            <a href="https://www.linkedin.com/in/sainath666/" target="_blank" rel="noopener noreferrer"><img src="ass/linkedin_logo.png" /></a>
+            <a href="https://github.com/sainath-666" target="_blank" rel="noopener noreferrer"><img src="ass/github_logo.png" /></a>
+            <a href="mailto:sai65265@gmail.com" target="_blank" rel="noopener noreferrer"><img src="ass/gmail_logo.png" /></a>
+            <a class="pdf-btn" href="ass/Sainathreddy_Resume.pdf" target="_blank" rel="noopener noreferrer"><img
                     src="ass/download_resume_logo.png" /></a>
         </div>
         <div class="poster">
@@ -55,6 +57,7 @@
         </div>
     </section>
     <section class="skills" id="skills">
+        <h2>Skills</h2>
         <div class="skill-grid">
             <div class="skill-card">
                 <h3>Front-End Development</h3>
@@ -152,6 +155,53 @@
             </div>
         </div>
     </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sainath666/" target="_blank" rel="noopener noreferrer"><img src="ass/linkedin_logo.png" alt="LinkedIn"></a>
+                <a href="https://github.com/sainath-666" target="_blank" rel="noopener noreferrer"><img src="ass/github_logo.png" alt="GitHub"></a>
+                <a href="mailto:sai65265@gmail.com" target="_blank" rel="noopener noreferrer"><img src="ass/gmail_logo.png" alt="Email"></a>
+            </div>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="copyright">
+                <div align="center">
+                    <p>Made with ❤️ by Your Sainathreddy</p>
+                </div>
+                <p>&copy; 2025 Sainathreddy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

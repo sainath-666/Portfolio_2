@@ -1,38 +1,55 @@
-# Portfolio Card
+# Portfolio Website
 
-A modern and fully responsive portfolio card designed to showcase personal information, skills, and services. Built entirely with **HTML** and **CSS**, this project demonstrates expertise in front-end development, focusing on clean design and code organization.
+A modern, responsive portfolio website showcasing my skills, services, and contact information.
 
----
+![Portfolio Preview](Preview.png)
 
-## 🚀 Features
 
-- **Modern Design**: Aesthetic and professional layout to leave a lasting impression.
-- **Responsive Layout**: Optimized for devices of all screen sizes, from mobile to desktop.
-- **Customizable Content**:
-  - Personal information (name, role, and bio).
-  - List of services offered (Front-End & Back-End Development).
-  - Links to social media profiles or portfolio.
-- **Smooth Animations**: Enhance user experience with simple transitions and hover effects (if added).
-- **Lightweight and Fast**: Uses only HTML and CSS for maximum simplicity and performance.
 
----
+##  [🔗 View Live Site](https://sainath-666.github.io/Portfolio_2/)
 
-## 🛠️ Technologies Used
+## ✨ Features
 
-- **HTML5**: For semantic structure and clean markup.
-- **CSS3**: For styling, layout, and responsiveness.
+- Fully responsive design that works on all devices
+- Modern UI with smooth animations
+- Sections for skills, services, and contact form
+- Video background for visual appeal
 
----
+## 💻 Technologies Used
 
-## 🌐 Live Demo
+- HTML5
+- CSS3 (with media queries for responsiveness)
+- Google Fonts
+- Font Awesome icons
 
-Check out the live version of the portfolio card here:  
-[Portfolio Card - Live Demo](https://sainath-666.github.io/Portfolio_card_1/)
+## 📱 Responsive Design
 
----
+The site is fully responsive and optimized for:
+- Desktop displays
+- Tablets
+- Mobile phones
 
-## 📥 How to Use
+## 🚀 Quick Start
 
-1. Clone the repository to your local machine:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/sainath-666/Portfolio_card_1.git
+   git clone https://github.com/sainath-666/Portfolio_2.git
+   ```
+2. Open `index.html` in your browser
+
+## 📧 Contact
+
+Feel free to reach out if you have any questions or suggestions!
+
+
+## 🔗 Connect With Me
+
+- [GitHub](https://github.com/sainath-666)
+- [LinkedIn](https://www.linkedin.com/in/sainath666)
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by Your Sainathreddy</p>
+</div>
+
